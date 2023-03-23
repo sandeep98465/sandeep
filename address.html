@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+    <head>
+        <title>task</title>
+        <!-- <link href="https://fonts.cdnfonts.com/css/noto-sans" rel="stylesheet"> -->
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&family=Roboto:wght@300&display=swap" rel="stylesheet">
+           
+   
+        <link rel="stylesheet" href="index2.css">
+    </head>
+    <body>
+        <div class="page-container">
+            <div class="page-header">
+                <div class="page-name">
+                      ADDRESS BOOK
+                </div>
+            </div>
+            <div class="page-navigation">
+                    <div class="page-navigation-list-menu">
+                        <ul  class="page-navigation-list">
+                        <li><a href="#" class="page-navigation-list active">home</a></li>
+                        <li><a href="#" class="page-navigation-list"  id="book" >+ADD</a></li>
+                        <li><a href="#" class="page-navigation-list"  id="login" >Login</a></li>
+                        </ul>
+                    </div>
+                    <div class="page-navigation-list-img">
+                       <img class="page-navigation-blog"src="blog-icon.png"alt="blog">
+                    </div>
+            </div>
+            <!-- <div class="signingForm" id="signingForm">
+                <form>
+                    <h1>LOGIN</h1>
+                    <br>
+                       <label for="Username">Name</label><br>
+                       <input type="text" name="Username" id="Username"><br><br>
+                       <lable for="password" name="password" >Password</lable><br>
+                       <input type="text" name="password" id="password"><br>
+                       <br>
+                       <button name="add" type="button" class="addButton" style="float: right;margin-right:50px" id="loginButton">submit</button>
+                </form>
+            </div> -->
+            <div class="loginForm" id="loginForm">
+                <form>
+                    <h1>LOGIN</h1>
+                    <br>
+                       <label for="Username">Name</label><br>
+                       <input type="text" name="Username" id="Username"><br><br>
+                       <lable for="password" name="password" >Password</lable><br>
+                       <input type="text" name="password" id="password"><br>
+                       <br>
+                       <button name="add" type="button" class="addButton" style="float: right;margin-right:50px" id="loginButton">submit</button>
+                </form>
+            </div>
+            <div>
+                <div class="contactsHeading">contacts</div>
+                <table  class="table-body" id="table-body">
+                    <thead> 
+                    </thead>
+                    <tbody id="tabledata">
+                    </tbody>
+                </table>
+            </div>
+            <div class="addForm" id="addForm">
+                <form id="formData">
+                    
+                    <label for="name" name="name"  >Name <span class="requiredFields" id="reqName">*</span></label><br>
+                    <input type="text" name="name" id="name" maxlength="1000"><br><br>
+                    <label for="email" name="eamil" >Email <span class="requiredFields" id="reqEmail">*</span></label><br>
+                    <input type="text" name="email" id="email"><br><br>
+                    <div class="contactNumbers" >
+                        <div class="mobileNumber">
+                             <label for="mobile" Lname="mobile" >Mobile <span class="requiredFields"  id="reqMobile">*</span></label>
+                        </div>
+                        <div class="landlineNumber">
+                        <label for="landline" name="Llandline" >Landline</label><br>
+                    </div>
+                       </div>
+                    <input type="text" name="mobile" id="mobile"class="landline" >
+                   
+                   <span style="padding-left: 20px;"><input type="text" id="landline" name="Landline" class="landline"></span><br><br>
+                   <label for="website" name="website">Wesbite</label><br>
+                   <input type="text" id="website" name="name"><br><br>
+                   <label for="address" name="address">Address</label><br>
+                   <input type="text" id="address" name="address" style="height: 60px;"><br><br>
+                   <div class="Button">
+                   <button type="button" name="cancel" class="deleteButton" id="cancel">cancel</button>
+                   <button name="add" type="button" class="addButton" id="addButton">ADD</button>
+                   <button name="add" type="button" class="addButton" style="display: none;" id="updateButton">Update</button> 
+                </div>
+                </form>
+            </div>
+            <div class="card" id="card">
+                <div class="nameBar">
+                <p class="cardName" class="imgEdit" id="cardName">..</p> <div class="items">
+                     <a ><div id="editButton"><img  id="editButton" src="edit1.jpg" alt="..."><span id="editButton" class="contextMenu">Edit</span></div></a>
+                   <a> <div id="deleteButton" ><img id="deleteButton" class="imgDel"  src="delete1.png" alt="..."><span id="deleteButton" class="contextMenu">Delete</span></div> 
+                   </a>
+                </div>
+                </div>
+                <div class="Bar">
+                    <p class="space">Email:</p>
+                    <p class="cardEmail" id="cardEmail">..</p>
+                </div>
+                <div class="phone">
+                    <div class="Bar">
+                        <p class="space">Mobile:</p>
+                        <p class="cardMobile" id="cardMobile">..</p>
+                    </div>
+                    <div class="Bar">
+                        <p class="space">Landline:</p>
+                        <p class="cardLandline" id="cardLandline">..</p>
+                    </div>
+                </div>
+               
+                <div class="Bar">
+                    <p class="space">website:</p>
+                    <p class="cardWebsite" id="cardWebsite">..</p>
+                </div>
+                <div class="Bar">
+                    <p class="space">Address:</p>
+                    <p class="cardAddress" id="cardAddress">..</p>
+                </div>
+            </div>
+        </div>  
+        <script> var exports = {}; </script>
+        <script src="./main.js" type="module" ></script> 
+    </body>
+    </html>
