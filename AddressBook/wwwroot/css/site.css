@@ -1,0 +1,306 @@
+
+.page-header {
+    background-color: #39c;
+    color: #fff;
+    height: 88px;
+}
+
+* {
+    margin: 0px;
+}
+
+.page-name {
+    font-size: 39px;
+    text-transform: uppercase;
+    padding-left: 30px;
+    font-weight: lighter;
+    font-family: 'Century Gothic';
+    padding-top: 18px;
+}
+
+.page-navigation {
+    display: flex;
+    color: #fff;
+    font-weight: bold;
+    height: 28px;
+    font-size: 13px;
+    align-items: center;
+    font-family: 'Century Gothic';
+    text-transform: uppercase;
+    background-color: black;
+    justify-content: space-between;
+}
+
+.page-navigation-list-menu {
+    padding-left: 5px;
+    /* align-items: center; */
+}
+
+.page-navigation-list {
+    list-style: none;
+    height: 28px;
+    text-decoration: none;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: #fff;
+    align-items: center;
+    display: flex;
+}
+
+    .active, .page-navigation-list a:hover {
+        background-color: #ff9900;
+        color: black;
+        border-left: 5px solid #fff;
+    }
+
+.page-navigation-blog {
+    align-items: center;
+    height: 18px;
+    padding-top: 2px;
+    padding-right: 25px;
+}
+
+.page-news {
+    margin-top: 16.5px;
+    margin-left: 55px;
+    line-height: 23px;
+    padding-left: 10px;
+    height: 139px;
+    width: 770px;
+    border: 2px solid lightgray;
+}
+
+.page-news-heading {
+    padding-top: 2px;
+    /* padding-bottom: 10px; */
+    font-size: 10px;
+    font-style: bold;
+    font-family: 'Century Gothic';
+    text-transform: uppercase;
+}
+
+.page-news-headlines {
+    list-style-type: "- ";
+    font-family: Noto sans;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    font-size: 10px;
+}
+
+.page-news-content {
+    margin-top: 22px;
+    padding-left: 60px;
+    margin-bottom: 0%;
+}
+
+.page-news-content-heading {
+    font-size: 15px;
+    font-family: 'Century Gothic';
+}
+
+.page-news-detail {
+    font-size: 12px;
+    font-family: Noto sans-serif;
+    width: 1000px;
+    padding-top: 10px;
+}
+
+.body-heading {
+    font-size: 28px;
+    margin: 20px 0px 0px 45px;
+}
+
+.heading-description {
+    margin: 20px 460px 40px 45px;
+}
+
+.form {
+    /* font-family: 'Century Gothic';  */
+    margin: 10px 0px 0px 20px;
+    /* border: 2px solid rebeccapurple; */
+    /* width: 400px; */
+    margin-left: 50px;
+    padding: 5px;
+    /* box-shadow: 1px 1px 2px 5px grey; */
+}
+
+.browse {
+    border: 1px solid black;
+    padding: 2px 12px 2px 4px;
+    background-color: #e5e5e5;
+}
+
+.about, .know, .reset, .submit {
+    margin-left: 50px;
+    resize: none;
+}
+
+.input-box {
+    /* border: 2px solid red; */
+    border-left: 3px solid;
+    border-top: 3px solid;
+}
+
+.td {
+    /* font-family: 'Century Gothic';  */
+    padding: 10px 20px 10px 50px;
+}
+
+.optional-info {
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 12px;
+}
+
+.line-break {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.submit-button {
+    margin-top: 20px;
+    text-align: left;
+    height: 25px;
+    width: 103px;
+}
+
+.contactsHeading {
+    margin: 30px auto 10px 30px;
+    font-size: 24px;
+    font: bold;
+}
+
+.th, td, tr {
+    border: 1px solid #cccc;
+}
+
+tr {
+    height: 75px;
+    padding-left: 20px;
+}
+
+.table-body {
+    border-collapse: collapse;
+    width: 300px;
+    margin-left: 30px;
+    padding: 40px;
+    /* background-color:grey; */
+    border: 1px solid #cccc
+}
+
+.addForm {
+    width: 40%;
+    position: absolute;
+    display: none;
+    left: auto;
+    right: 150px;
+    padding: 20px;
+    top: 170px;
+    box-shadow: 0px 0px 20px 0px;
+    /* font-family: 'Noto Sans', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+
+.rowBackground {
+    background-color: #cee7f2;
+}
+
+.addForm input {
+    width: 85%;
+    height: 25px;
+}
+
+.contactNumbers {
+    display: flex;
+    width: 335px;
+    justify-content: space-between;
+}
+
+.landline {
+    width: 40% !important;
+}
+
+.requiredFields {
+    color: red;
+}
+
+.Button {
+    float: right;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: space-between; */
+}
+
+.addButton {
+    background-color: green;
+}
+
+.name-head {
+    display: grid;
+    align-items: stretch;
+}
+
+.rName {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+.card {
+    width: 400px;
+    position: absolute;
+    display: none;
+    left: 450px;
+    top: 170px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cardName {
+    font-size: 40px;
+    display: flex;
+}
+
+.Bar, .nameBar {
+    /* align-content: 20px; */
+    display: flex;
+}
+
+.nameBar {
+    width: 99%;
+    justify-content: space-between;
+}
+
+.space {
+    padding-right: 10px
+}
+
+img {
+    padding-top: 20px;
+    height: 15px;
+}
+
+.contextMenu {
+    cursor: context-menu;
+}
+
+.imgEdit {
+    /* margin-left: 40px; */
+    padding-left: 160px;
+}
+
+.phone {
+    margin: 20px 0px 20px 0px;
+}
+
+.cardWebsite {
+    margin-bottom: 20px;
+}
+
+.items {
+    margin-left: 50px;
+    display: flex;
+}
+
+.imgDel {
+    padding-left: 20px;
+}

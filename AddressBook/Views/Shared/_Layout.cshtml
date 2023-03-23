@@ -1,0 +1,39 @@
+﻿<!doctype html>
+<html>
+<head>
+    <title>task</title>
+
+
+    <link rel="stylesheet" href="./css/site.css">
+</head>
+<body>
+    <div class="page-container">
+        <div class="page-header">
+            <div class="page-name">
+                ADDRESS BOOK
+            </div>
+        </div>
+        <div class="page-navigation">
+            <div class="page-navigation-list-menu">
+                <ul class="page-navigation-list">
+                    <li><a href="#" class="page-navigation-list active">home</a></li>
+                    <li><a href="#" class="page-navigation-list" id="book" onclick="createContact()">+ADD</a></li>
+                </ul>
+            </div>
+            <div class="page-navigation-list-img">
+                <img class="page-navigation-blog" src="blog-icon.png" alt="blog">
+            </div>
+        </div>
+        <div>
+            <div class="contactsHeading">contacts</div>
+            <table id="table-body" class="table-body">
+                <thead>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+        @RenderBody()
+    <script src="./main.js"></script>
+</body>
+</html>
